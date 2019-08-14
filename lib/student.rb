@@ -17,8 +17,7 @@ class Student
     new_id = row[0]
     new_name = row[1]
     new_grade = row[2]
-    new_student = self.new(new_id, new_name, new_grade)
-    new_student
+    self.new(new_id, new_name, new_grade)
   end
   
   
